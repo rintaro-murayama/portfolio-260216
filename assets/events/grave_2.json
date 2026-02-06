@@ -1,6 +1,6 @@
 {
     "event" : [
-        {"type": "text", "msg": ["タイラーザクリエイター", "hello"]},
+        {"type": "text", "msg": ["A", "hello"]},
         {"type": "text", "msg": ["world", "end"]}
     ]
 }
