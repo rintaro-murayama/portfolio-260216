@@ -11,10 +11,10 @@
 ## 起動方法
 
 1. パッケージをダウンロード
-2. ディレクトリをportfolio-murayama-260206に移動
-   例: cd Downloads/portfolio-murayama-260206
-3. ローカルサーバーを起動
-   python3 を使用した例: python -m http.server 8888
+2. ディレクトリをportfolio-murayama-260206に移動<br>
+例: cd Downloads/portfolio-murayama-260206
+3. ローカルサーバーを起動<br>
+python3 を使用した例: python -m http.server 8888
 4. ブラウザで`http://localhost:8888/`にアクセス
 
 ## 操作方法
