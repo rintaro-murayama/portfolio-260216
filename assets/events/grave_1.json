@@ -1,0 +1,6 @@
+{
+    "event" : [
+        {"type": "text", "msg": ["hello", "hello"]},
+        {"type": "text", "msg": ["world"]}
+    ]
+}

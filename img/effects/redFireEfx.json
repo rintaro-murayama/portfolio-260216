@@ -1,0 +1,113 @@
+{
+	"frames":
+	{
+		"redFireEfx_0":
+		{
+			"frame":
+			{
+				"x":304,
+				"y":176,
+				"w":16,
+				"h":16
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize":
+			{
+				"x":304,
+				"y":176,
+				"w":16,
+				"h":16
+			},
+			"sourceSize":
+			{
+				"w":16,
+				"h":16
+			}
+		},
+		"redFireEfx_1":
+		{
+			"frame":
+			{
+				"x":320,
+				"y":176,
+				"w":16,
+				"h":16
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize":
+			{
+				"x":320,
+				"y":176,
+				"w":16,
+				"h":16
+			},
+			"sourceSize":
+			{
+				"w":16,
+				"h":16
+			}
+		},
+		"redFireEfx_2":
+		{
+			"frame":
+			{
+				"x":336,
+				"y":176,
+				"w":16,
+				"h":16
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize":
+			{
+				"x":336,
+				"y":176,
+				"w":16,
+				"h":16
+			},
+			"sourceSize":
+			{
+				"w":16,
+				"h":16
+			}
+		},
+		"redFireEfx_3":
+		{
+			"frame":
+			{
+				"x":352,
+				"y":176,
+				"w":16,
+				"h":16
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize":
+			{
+				"x":352,
+				"y":176,
+				"w":16,
+				"h":16
+			},
+			"sourceSize":
+			{
+				"w":16,
+				"h":16
+			}
+		}
+	},
+	"meta":
+	{
+		"app": "http://www.tansio.net/mobile/twitter/00002/",
+		"image":"attackEffectsRed.png",
+		"format": "RGBA8888",
+		"size":
+		{
+				"w":576,
+				"h":208
+		},
+		"scale": 1
+	}
+}
