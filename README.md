@@ -13,9 +13,10 @@
 1. パッケージをダウンロード
 2. ディレクトリをportfolio-murayama-260206に移動<br>
 例: cd Downloads/portfolio-murayama-260206
-3. ローカルサーバーを起動<br>
-python3 を使用した例: python -m http.server 8888
-4. ブラウザで`http://localhost:8888/`にアクセス
+3. ローカルサーバーを起動し、Webページにアクセス<br>
+python3 を使用した例:<br>
+python -m http.server 8888<br>
+ブラウザで`http://localhost:8888/`にアクセス
 
 ## 操作方法
 
@@ -26,21 +27,23 @@ python3 を使用した例: python -m http.server 8888
 
 ## ファイル構成
 
-- assets/events/\*.json:
+- assets/events/\*.json:<br>
   マップ上の個別オブジェクトのイベントを記載しています。
-- assets/LargeMapTest.json
+- assets/LargeMapTest.json:<br>
   マップ上の要素配置やイベント、当たり判定を記載しています。
-- img
+- img:<br>
   画像ファイルの格納場所です。
-- js/GameObject.js
+- js/GameObject.js:<br>
   マップ上のオブジェクトのクラスです。座標や被攻撃時の挙動を取り扱っています。
-- js/main.js
+- js/main.js:<br>
   ゲーム画面の大半がこのファイルに記載されています。画像表示やアニメーション、マップスクロール、移動など
-- js/NpcObject.js
+- js/NpcObject.js:<br>
   NPCのクラスです。移動時のアニメーションが示されています。（このファイルは特に増やすべき機能が多いです）
-- js/pixi.min.js
+- js/declaration.js:<br>
+  定数や変数の宣言をしています。
+- js/pixi.min.js:<br>
   使用しているライブラリである、pixi.jsの実体です。
-- game.html
+- game.html:<br>
   ゲーム用のWebページです。スタイルやWebページとしてのUIは未実装です。
-- index.html
+- index.html:<br>
   game.htmlにポーティングするだけのindexファイルです。
